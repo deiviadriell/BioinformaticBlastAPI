@@ -1,0 +1,9 @@
+c:\users\jorge\documents\visual studio 2015\Projects\BlastAPI\BlastAPI\bin\Debug\BlastAPI.exe.config
+c:\users\jorge\documents\visual studio 2015\Projects\BlastAPI\BlastAPI\bin\Debug\BlastAPI.exe
+c:\users\jorge\documents\visual studio 2015\Projects\BlastAPI\BlastAPI\bin\Debug\BlastAPI.pdb
+c:\users\jorge\documents\visual studio 2015\Projects\BlastAPI\BlastAPI\obj\Debug\BlastAPI.csprojResolveAssemblyReference.cache
+c:\users\jorge\documents\visual studio 2015\Projects\BlastAPI\BlastAPI\obj\Debug\BlastAPI.frm_BlastAPI.resources
+c:\users\jorge\documents\visual studio 2015\Projects\BlastAPI\BlastAPI\obj\Debug\BlastAPI.Properties.Resources.resources
+c:\users\jorge\documents\visual studio 2015\Projects\BlastAPI\BlastAPI\obj\Debug\BlastAPI.csproj.GenerateResource.Cache
+c:\users\jorge\documents\visual studio 2015\Projects\BlastAPI\BlastAPI\obj\Debug\BlastAPI.exe
+c:\users\jorge\documents\visual studio 2015\Projects\BlastAPI\BlastAPI\obj\Debug\BlastAPI.pdb
