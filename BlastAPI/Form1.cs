@@ -17,17 +17,12 @@ namespace BlastAPI
 {
     public partial class frm_BlastAPI : Form
     {
-        // Create a request using a URL BLAST  
-        HttpWebRequest request = WebRequest.Create("https://blast.ncbi.nlm.nih.gov/blast/Blast.cgi") as HttpWebRequest;        
+              
         
         public frm_BlastAPI()
         {
             InitializeComponent();
-            // Set the Method property of the request to POST.              
-            request.Method = "POST";
-            request.AllowAutoRedirect = false;
-            request.Accept = "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8";
-            request.ContentType = "application/x-www-form-urlencoded";
+           
           
         }
 
@@ -40,7 +35,13 @@ namespace BlastAPI
         {
             try
             {
-
+                // Create a request using a URL BLAST  
+                HttpWebRequest request = WebRequest.Create("https://blast.ncbi.nlm.nih.gov/blast/Blast.cgi") as HttpWebRequest;
+                // Set the Method property of the request to POST.              
+                request.Method = "POST";
+                request.AllowAutoRedirect = false;
+                request.Accept = "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8";
+                request.ContentType = "application/x-www-form-urlencoded";
                 string parameters = "CMD=Put&PROGRAM=blastn&MEGABLAST=on&DATABASE=nr&QUERY=" + HttpUtility.UrlEncode(txt_Secuencia.Text);
                 ASCIIEncoding encoding = new ASCIIEncoding();
                 byte[] byte1 = encoding.GetBytes(parameters);
@@ -74,7 +75,7 @@ namespace BlastAPI
                     Process.Start("https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Get&RID=" + rid);
                 }
                 else
-                    MessageBox.Show("Error con la secuencia! / Error with the sequence!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Error con la secuencia! / Error with the sequence!"+ rid, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
             }
 

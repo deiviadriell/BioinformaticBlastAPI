@@ -47,6 +47,7 @@
             this.txt_Secuencia.Location = new System.Drawing.Point(12, 36);
             this.txt_Secuencia.Multiline = true;
             this.txt_Secuencia.Name = "txt_Secuencia";
+            this.txt_Secuencia.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.txt_Secuencia.Size = new System.Drawing.Size(435, 284);
             this.txt_Secuencia.TabIndex = 1;
             // 
