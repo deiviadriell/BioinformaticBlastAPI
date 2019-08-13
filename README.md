@@ -1,5 +1,5 @@
 # BlastAPI
- Consumo Blast API - Consumption Blast API 
+ Consumo Blast API - Consumption Blast API most popular bioinformatics framework 
  
  This Aplication of desktop is a example developed in the programming language c #  that wrap’s NCBI BLAST’s RESTful API into a custom graphical user interface BLAST, which allows to obtain similarities between two or more biological sequences
 
